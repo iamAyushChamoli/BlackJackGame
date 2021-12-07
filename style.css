@@ -1,0 +1,68 @@
+body{
+    
+    background-image: url(resources/bakcground.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style-type: disc;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ruleList{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head1,#cardHeading,#sum,#rules{
+    position: relative;
+    color: gold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#startButton{
+    padding: 1em 2em;
+    background-color:darkcyan;
+}
+
+#buttons{
+    text-align: center;
+}
+
+#drawButton{
+    padding: 1em 2em;
+    background-color:darkcyan;
+}
+#restartButton{
+    padding: 1em 2em;
+    background-color:darkcyan;
+
+}
+#status{
+    background-color: bisque;
+    border-radius: 10px;
+    padding-top:5px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+#flexContainer{
+    display: flex;
+    align-items: center;
+}
+#card1,#card2,#card3{
+    border:2px solid white;
+    margin-left: 3em;
+    width: 100px;
+    height: 145px;
+    border-radius: 7px;
+    
+}
+#card1{
+    margin-left: auto;
+}
+#card3{
+    margin-right: auto;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BlackJack</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="head1"><h1>BlackJack</h1></header>
+        <h1 id="cardHeading">Cards: </h1>
+        <div id="flexContainer">
+            <div id="card1">
+            
+            </div>
+            <div id="card2">
+                
+            </div>
+            <div id="card3">
+                
+            </div>
+    
+        </div>
+        <h1 id="sum">Sum: </h1>
+        <div id="buttons">
+            <button id="startButton" onclick="startGame()">Start!</button>
+            <button id="drawButton" onclick="drawCards()">Draw Another!</button>
+            <button id="restartButton"onclick="restartGame()">Restart!</button>
+        </div>
+        <p id="status"></p>
+        <h1 id="rules"><u>Rules: </u></h1>
+        <ul id="ruleList">
+            <li>The Player begins by clicking on "Start!" Button and three cards at random are drawn</li>
+            <li>The sum of the values of the cards is observed and the game progresses based on on of the following three outputs:
+                <ul id="miniRules">
+                    <li>The Sum > 21 in which case the player loses and has to Restart the game</li>
+                    <li>The Sum < 21 in which case the player is allowed to draw another card whose value is also added to the sum</li>
+                    <li>The Sum = 21 in which case the Player Wins</li>
+                </ul>
+            </li>
+            <li>The Face Cards are of value 10.</li>
+            <li>This continues until the player either Wins or Loses</li>
+        </ul>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
